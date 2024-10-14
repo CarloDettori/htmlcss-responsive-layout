@@ -1,0 +1,104 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+#video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+#video iframe {
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    font-family: 
+}
+
+
+/* font */
+
+
+
+
+/* assets */
+
+body {
+    font-family: ;
+}
+
+h1 {
+    color: var(--color-contrast);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-family: 'Nerko One', cursive;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+ads {
+    display: none;
+}
+
+
+/* custom variables */
+
+:root {
+	--color-white: #ffffff;
+	--color-bg-color: #d9d9d9;
+	--color-primary: #7c69a4;
+	--color-dark-text: #4e3969;
+	--color-black: #282529;
+	--color-contrast: #fa961a;
+	--color-icon-red: #ea5556;
+	--color-icon-blue: #2871f0;
+}
+
+
+/* utility */
+.debug {
+    border: 1px solid red;
+}
+
+
+/* flex utility */
+
+.flex {
+    display: flex;
+}
+
+.spa-bet {
+    justify-content: space-between;
+}
+
+
+/* position utility */
+
+.relative {
+    position: relative;
+}
+
+.float-left {
+    float: left;
+}
+
+
+/* media query */
+
+@media  screen and (min-width: 576px) {
+    .disappear {
+        display: block;
+    }
+}
