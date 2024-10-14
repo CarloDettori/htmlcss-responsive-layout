@@ -202,6 +202,7 @@ footer {
     display: none;
     text-transform: uppercase;
     color: black;
+    font-weight: bold;
 }
 
 
@@ -326,16 +327,13 @@ footer {
     .row-ric {
         display: flex;
         height: 100%;
-        margin: 0 auto;
     } 
     
+
     #video {
         width: 60%;
     }
 
-    #ric-box {
-        height: auto;
-    }
 
 
     .button {
@@ -350,5 +348,8 @@ footer {
     #con-fot {
         display: flex;
         justify-content: space-between;
+    }
+    #con-fot>div>h5 {
+        text-align: left;
     }
 }
