@@ -52,8 +52,12 @@ li {
     padding: 10px 0;
 }
 
-h2, h3, h4, h5, p, #address{
+h2, h3, h4, p {
     padding: 10px 0;
+}
+
+h5, #address {
+    padding: 5px 0 0;
 }
 
 h2 {
@@ -104,7 +108,6 @@ h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     font-family: 'Nerko One';
     text-transform: uppercase;
-    font-size: 2em;
 }
 
 #des-sec {
@@ -184,7 +187,7 @@ main {
 footer {
     background-color: var(--color-primary);
     color: white;
-    padding: 20px;
+    padding: 10px 20px;
     
 }
 
@@ -219,7 +222,7 @@ footer {
 
 :root {
 	--color-white: #ffffff;
-	--color-bg-color: #d9d9d9;
+	--color-bg-color: #f5f4f2;
 	--color-primary: #7c69a4;
 	--color-dark-text: #4e3969;
 	--color-black: #282529;
@@ -387,7 +390,6 @@ footer {
     .inv {
         display: block;
         padding-left: 5px;
-        line-height: -50px;
     }
 
     #con-fot {
@@ -398,4 +400,9 @@ footer {
     #con-fot>div>h5 {
         text-align: left;
     }
+
+    .link {
+        padding: 0 5px
+    }
+
 }
