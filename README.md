@@ -28,13 +28,13 @@ aiutandoci con gli screenshot in allegato:
  - Compaiono i nomi delle piattaforme social
  - NEl footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti
 
- ### **Bonus**
+### **Bonus**
 
- **Modalità Large Mobile** (576px)
+**Modalità Large Mobile** (576px)
  - l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px
  - I bottoni social si allagano già su dispositivi mobile più grandetti (576px)
  
- ## **Info**
+## **Info**
  - Il font utilizzato per il titolo è: 'Nerko One', cursive;
  - Il font per il resto della pagina è: Montserrat, 'Helvetica Neue', sans-serif;
  - L'indirizzo del video YT utilizzato è https://www.youtube.com/watch?v=JVT900H6s0g

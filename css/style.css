@@ -107,6 +107,10 @@ h1 {
     font-size: 2em;
 }
 
+#des-sec {
+    padding: 20px 0;
+}
+
 #trad {
     display: none;
 }
@@ -117,7 +121,7 @@ h1 {
 
 #ads {
     display: none;
-    padding: 20px 0
+    padding: 20px 0 40px
 }
 
 #upcase {
@@ -140,14 +144,18 @@ h1 {
 }
 
 #row-social {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .button {
     background-color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    transform: scale(1.2);
 }
 
 div>#tir-img {
@@ -293,35 +301,67 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    #trad {
+        display: inline;
+    }
+
+    #tiram {
+        font-size: 2em;
+    }
+
+    main {
+        padding-top: 100px;
+    }
+
     h1 {
        text-align: left;
+       font-size: 3em;
+
     }
+
     div#tir-box>#tir-img {
         width: 40%;
     }
+
     #preric {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         
     }
+
     .preric>li {
         padding: 500px;
     }
+
     .container {
         padding: 20px;
     }
-    #trad {
-        display: inline;
+     
+    .button {
+        width: 140px;
+        justify-content: center;
+        text-decoration: none;
     }
+    
 }
 
 @media screen and (min-width: 992px) {
+    h1 {
+        font-size: 4em;
+    }
 
+    #tiram {
+        font-size: 3em;
+    }
+
+    main {
+        padding-top: 120px;
+    }
     #preric {
         display: block;
         flex-wrap: wrap;
-        height: 86%;
+        height: 89%;
     }
 
     .row-ric {
@@ -329,24 +369,28 @@ footer {
         height: 100%;
     } 
     
-
     #video {
-        width: 60%;
+        width: 80%;
     }
 
     .button {
-        width: auto;
+        width: 200px;
+        display: inline-flex;
+        justify-content: center;
+        text-decoration: none;
     }
 
     .inv {
         display: block;
         padding-left: 5px;
+        line-height: -50px;
     }
 
     #con-fot {
         display: flex;
         justify-content: space-between;
     }
+
     #con-fot>div>h5 {
         text-align: left;
     }
